@@ -3,7 +3,7 @@
 /**
  * main - prints the phrase with proper gammer,
  * but the outcame is a piece of art,
- * return: 0 if exited properly, no-zero otherwise any think to add
+ * Return: 0 if exited properly, non-zero otherwise any think to add
  */
 int main(void)
 {
