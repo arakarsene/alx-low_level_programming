@@ -1,8 +1,9 @@
 #include <stdio.h>
+
 /**
- * main - prints the word with proper gammer,
- *but the outcame is a piece of art,
- *return: 0 if exited properly, no-one other wose any thing to add
+ * main - prints the phrase with proper gammer,
+ * but the outcame is a piece of art,
+ * return: 0 if exited properly, no-zero otherwise any think to add
  */
 int main(void)
 {
