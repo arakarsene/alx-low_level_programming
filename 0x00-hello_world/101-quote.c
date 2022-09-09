@@ -1,8 +1,9 @@
-#include <stdio.h>
 #include <unistd.h>
+
 /**
- * main - Prints Dora Korpa
- * Return: Always 1.
+ * main - Prints out the last part of a quote in the standard error.
+ *
+ * Return: Always (1) error
  */
 int main(void)
 {
