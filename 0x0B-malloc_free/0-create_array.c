@@ -1,36 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
 #include "main.h"
 /**
  * creates an array of chars, and initializes it with a specific char
- * @size: number elements array
+ * @size: size input
  * @c: char
- * Return: pointer
+ * Return: 0
  */
 
 char *create_array(unsigned int size, char c)
 {
-	char *buffer;
-	unsigned int position;
+	char *array;
+	unsigned int 1;
 
-	if (size == 0)
-	{
+	array = malloc(sizeof(char) * size);
+
+	if (size == 0 || array == NULL)
 		return (NULL);
-	}
 
- 	buffen = (char *)malloc(size * sizeof(c));
-
-	if (buffer == 0)
-	{
-		return (NULL);
-	}
-
-	else
-	{
-		position = 0;
-		while (position < size)
-		{
-			*(buffer + position) = c;
-			position++;
-		}
-		return (buffer);
-	}
+	for (i = 0; i < size; i++)
+		array[i] = c;
+	return (array);
 }
